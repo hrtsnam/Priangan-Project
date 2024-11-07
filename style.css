@@ -1,0 +1,47 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Volkhov';font-size: 22px;
+    background-color: #FCFEF2;
+}
+.nav {
+    background-color: #FCFEF2;
+    box-shadow: 1px 1px 3px gray;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 10px;
+    align-items: center;
+}
+.games {
+    padding-left: 20px;
+}
+.games>p {
+    font-size: 50px;
+}
+.menu {
+    padding: 10px 30px;
+}
+.navtitle {
+    color: #FF6060;
+}
+.box {
+    background-color: #FF6060;
+    width: 50px;
+    height: 50px;
+    box-shadow: 5px 5px 1px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxes {
+    background-color: #FCFEF2;
+    width: 30px;
+    height: 5px;
+    margin: 3px;
+}
