@@ -50,6 +50,20 @@ body {
     align-items: center;
     scale: 1.1;
     cursor: pointer;
+    .boxbox {
+        rotate: -90deg;
+        display: column;
+    }
+    #box1 {
+        width: 7px;
+    }
+    #box2 {
+        width: 25px;
+    }
+}
+.boxbox {
+    transition: 0.3s;
+    justify-items: flex-end;
 }
 .boxes {
     background-color: #FCFEF2;
@@ -66,4 +80,11 @@ body {
 }
 .letsplay {
     font-size: 100px;
+    transition: 0.7s;
+}
+@media only screen and (max-width: 600px) {
+    .letsplay {
+        font-size: 80px;
+    }
+    
 }
