@@ -75,11 +75,27 @@ body {
 }
 .titleseccont {
     display: flex;
-    padding: 110px 50px;
+    padding: 110px 50px 30px 50px;
     justify-content: flex-start;
 }
 .letsplay {
     font-size: 100px;
+}
+.sec1 {
+    padding: 0 50px;
+}
+#c1 {
+    background-color: #5BA0FF;
+    width: 195px;
+    height: 55px;
+    color: #FCFEF2;
+    font-size: 40px;
+    text-decoration: none;
+}
+.garticio a {
+    color: #FCFEF2;
+    font-size: 40px;
+    text-decoration: none;
 }
 @media only screen and (max-width: 600px) {
     .letsplay {
